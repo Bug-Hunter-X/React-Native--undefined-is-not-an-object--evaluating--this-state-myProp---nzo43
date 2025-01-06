@@ -1,0 +1,1 @@
+This error occurs when you try to access a component's state or props before it has mounted.  This often happens within lifecycle methods like `constructor` or immediately after setting state in `componentDidMount`.  React Native doesn't guarantee that state or props are available at these exact moments.
